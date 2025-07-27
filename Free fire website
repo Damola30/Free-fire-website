@@ -1,1 +1,79 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>Welcome to my website created with Acode.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Free Fire News & Updates</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #f1f1f1;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #f39c12;
+    }
+
+    .news {
+      background: #1c1c1c;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .news h2 {
+      color: #00e676;
+      margin-top: 0;
+    }
+
+    .news p {
+      line-height: 1.5;
+    }
+
+    .news a {
+      color: #4fc3f7;
+      text-decoration: none;
+    }
+
+    .news a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Latest Free Fire News & Updates</h1>
+
+  <div class="news">
+    <h2>🔥 New Evo Gun Released!</h2>
+    <p>Garena just dropped a brand new Evo gun with upgraded stats and special effects.
+      <a href="#">Read more</a>
+    </p>
+  </div>
+
+  <div class="news">
+    <h2>🎉 Upcoming Diamond Royale</h2>
+    <p>A new Diamond Royale event is coming with exclusive outfits and emotes.
+      <a href="#">Check it out</a>
+    </p>
+  </div>
+
+  <div class="news">
+    <h2>⚡ OB45 Update Patch Notes</h2>
+    <p>The OB45 update brings new characters, bug fixes, and weapon balance changes.
+      <a href="#">View patch notes</a>
+    </p>
+  </div>
+
+</body>
+</html>
